@@ -9,124 +9,14 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom, #A97155 0%, #E4D1B9 35%);  
 }
-/* .container{
-    display: grid;
-    grid-template-areas: "header"
-                         "nav"
-                         "main"
-                         "aside"
-                         "footer";
-} */
-/* .logo {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-.logo img {
-    width: 135px;
-    height: 135px;
-} */
-/* .titulo {
-    color: black;
-}
-.main {
-    grid-area: main;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-.imgFondo img {
-    width: 80vw;
-    border-radius: 20px;
-    box-shadow: 6px 11px 12px black;
-}
-.aside {
-    grid-area: aside;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contVideo iframe {
-    border-radius: 20px;
-    box-shadow: 6px 11px 12px black;
-}
-.cafeDerecha img {
-    border-radius: 20px;
-    box-shadow: 6px 11px 12px black;
-}
-.texto {
-    padding: 20px 55px; 
+.titulo {
+    color:black;
     font-size: 20px;
-    text-align: center;
-    font-size: 32px;
-} */
+}
+ 
 .footer {
     grid-area: footer;
     background-color: black;
     color: white;
     text-align: center;
-}
-    /* PROPIEDADES PARA CONTACTO MOBILE*/
-
-/* .formtitle{
-    text-align: center;
-    color: var(--colorOne);
-    font-size: 25px;
-    padding: 20px; */
-/* }
-.formcontact{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 1rem;
-}
-.detailsbutton{
-    background: var(--colorOne);
-    color: var(--colorThree);
-    border-radius: 10px;
-    padding: 5px 0;
-}
-.detailsbutton:hover{
-    cursor: pointer; */
-
-/* @media(min-width:576px){
-
-    .barraNav {
-        display: flex;
-        flex-direction: row;
-        width: 82%;
-        justify-content: space-between;
-    }
-    .header {
-        justify-content: space-between;
-    }
-    .aside {
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-    } */
-
-    /* PROPIEDADES PARA CONTACTO PC */
-  
-  /* .main_contac {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .formtitle {
-    text-align: center;
-  }
-  .formcontact {
-    width: 30%;
-  }
-   .footer_contac {
-    grid-area: footer;
-    background-color: black;
-    color: white;
-    text-align: center;
-   } */
 }
