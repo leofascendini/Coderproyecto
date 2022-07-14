@@ -1,4 +1,5 @@
+
 .titulo {
-    color: black;
-    font-size: 20px;
+    @include title(black, 20px)
   }
+

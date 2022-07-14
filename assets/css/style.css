@@ -6,18 +6,22 @@
   box-sizing: border-box;
 }
 
+.tituloDos {
+  font-weight: 800;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(to bottom, #A97155 0%, #E4D1B9 35%);
 }
 
-.titulo {
+.titulo, .tituloDos {
   color: black;
   font-size: 20px;
 }
 
 .footer {
-  grid-area: footer;
+  grid-area: grid-area;
   background-color: black;
   color: white;
   text-align: center;

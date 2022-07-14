@@ -1,6 +1,9 @@
+
+
 .footer {
-    grid-area: footer;
-    background-color: black;
-    color: white;
-    text-align: center;
+    grid-area: map-get($pie ,area );
+    background-color: map-get($pie ,background );
+    color: map-get($pie ,color);
+    text-align: map-get($pie ,text-center);
   }
+

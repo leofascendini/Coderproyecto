@@ -1,0 +1,16 @@
+$pie:(
+  area: grid-area,
+  background:black,
+  color:white,
+  text-center:center,
+);
+
+@mixin title($color, $tamanio){
+    color: $color;
+    font-size: $tamanio; 
+}
+
+.tituloDos {
+    @extend.titulo;
+    font-weight: 800;
+  }
