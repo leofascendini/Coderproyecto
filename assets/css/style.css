@@ -39,4 +39,12 @@ body {
 .aside .video {
   border-radius: 20px;
   box-shadow: 6px 11px 12px black;
+}
+
+.cafeNos {
+  margin: 15px;
+}
+.cafeNos .img-fluid {
+  border-radius: 20px;
+  box-shadow: 6px 11px 12px black;
 }/*# sourceMappingURL=style.css.map */
