@@ -12,11 +12,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to bottom, #A97155 0%, #E4D1B9 35%);
+  background: #ab9680;
 }
 
 .titulo, .tituloDos {
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
@@ -69,9 +69,40 @@ body {
   overflow: hidden;
   margin: 20px;
   text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: rotateY(-15px);
+  box-shadow: 0 12px 18px rgb(255, 255, 255);
 }
 
 .container .card img {
   width: 330px;
   height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+}
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.nav-link {
+  color: white;
+}
+
+.tituloDos {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
